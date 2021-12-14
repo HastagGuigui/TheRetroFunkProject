@@ -188,6 +188,11 @@ void GDLevelLoader::LoadCustomProperties()
 	AddCustomSize(15, Vector3(0.21 * 1.5, 1.33 * 1.5, 1));
 	AddCustomSize(16, Vector3(0.2 * 1.5, 0.88 * 1.5, 1));
 	AddCustomSize(17, Vector3(0.18 * 1.5, 0.41 * 1.5, 1));
+	//- Portals
+	AddCustomSize(10, Vector3(50/120, 150/120, 1));
+	AddCustomSize(11, Vector3(50/120, 150/120, 1));
+	AddCustomSize(12, Vector3(68/120, 172/120, 1));
+	AddCustomSize(13, Vector3(68/120, 172/120, 1));
 
 	//No Collisions
 	//|
