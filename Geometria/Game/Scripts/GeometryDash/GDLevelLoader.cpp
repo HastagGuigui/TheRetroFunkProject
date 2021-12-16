@@ -207,7 +207,23 @@ void GDLevelLoader::LoadCustomProperties()
 	AddCustomSize(747,  Vector3(78.f / 60, 180.f / 60, 1));//teleport in		(15)
 	AddCustomSize(749,  Vector3(78.f / 60, 180.f / 60, 1));//teleport out		(16)
 	AddCustomSize(1331, Vector3(68.f / 60, 172.f / 60, 1));//robot				(17)
-	//- differently-scaled blocks
+	//- decorations
+	AddCustomSize(9,	Vector3(121.f / 120, 106.f / 120, 1));//pit_01_001.png
+	AddCustomSize(1715, Vector3(121.f / 120, 106.f / 120, 1));//pit_01_001.png (2)
+	//- Spikes
+	//|-	1.0 spikes
+	AddCustomSize(39,	Vector3(1, 54.f / 120, 1));			//spike_02_001.png
+	AddCustomSize(103,	Vector3(80.f/120, 76.f / 120, 1));	//spike_03_001.png
+	AddCustomSize(392,	Vector3(50.f/120, 48.f / 120, 1));	//spike_04_001.png
+	//|-	invisible spikes
+	AddCustomSize(205,	Vector3(1, 54.f / 120, 1));			//invis_spike_02_001.png
+	AddCustomSize(145,	Vector3(80.f/120, 76.f / 120, 1));	//invis_spike_03_001.png
+	AddCustomSize(459,	Vector3(50.f/120, 48.f / 120, 1));	//invis_spike_04_001.png
+	//- slabs
+	AddCustomSize(215,	Vector3(1, 54.f / 120, 1));
+	AddCustomSize(40,	Vector3(1, 54.f / 120, 1));
+	AddCustomSize(662,	Vector3(1, 60.f / 120, 1));
+
 	// what the fuck rob
 
 	//No Collisions
