@@ -223,6 +223,17 @@ void GDLevelLoader::LoadCustomProperties()
 	AddCustomSize(215,	Vector3(1, 54.f / 120, 1));
 	AddCustomSize(40,	Vector3(1, 54.f / 120, 1));
 	AddCustomSize(662,	Vector3(1, 60.f / 120, 1));
+	//- Clouds		[d_cloud_XX_001.png]
+	AddCustomSize(48,	Vector3(450.f / 120, 154.f / 120, 1));	//01
+	AddCustomSize(49,	Vector3(320.f / 120, 128.f / 120, 1));	//02
+	AddCustomSize(129,	Vector3(316.f / 120, 126.f / 120, 1));	//03
+	AddCustomSize(130,	Vector3(458.f / 120, 176.f / 120, 1));	//04
+	AddCustomSize(131,	Vector3(152.f / 120, 72.f  / 120, 1));	//05
+	//- Deco spikes [d_spikes_XX_001.png]
+	AddCustomSize(18,	Vector3(512.f / 120, 166.f / 120, 1));	//01
+	AddCustomSize(19,	Vector3(416.f / 120, 146.f / 120, 1));	//02
+	AddCustomSize(20,	Vector3(292.f / 120, 116.f / 120, 1));	//03
+	AddCustomSize(21,	Vector3(168.f / 120, 52.f  / 120, 1));	//04
 
 	// what the fuck rob
 
@@ -233,6 +244,17 @@ void GDLevelLoader::LoadCustomProperties()
 	AddNoCollisions(15);
 	AddNoCollisions(16);
 	AddNoCollisions(17);
+	//- Clouds
+	AddNoCollisions(48);	//d_cloud_01_001.png
+	AddNoCollisions(49);	//d_cloud_02_001.png
+	AddNoCollisions(129);	//d_cloud_03_001.png
+	AddNoCollisions(130);	//d_cloud_04_001.png
+	AddNoCollisions(131);	//d_cloud_05_001.png
+	//- Deco spikes
+	AddNoCollisions(18);
+	AddNoCollisions(19);
+	AddNoCollisions(20);
+	AddNoCollisions(21);
 
 	//Custom Collision Size
 	//|
